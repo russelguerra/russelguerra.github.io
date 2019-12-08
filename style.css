@@ -1,14 +1,16 @@
 body{
 	background-image: url("background.jpg");
-	height: 500px;
+	width: calc(100vw - 100px);
+	height: calc(100vw - 100px);
 	background-size: cover;
   	background-repeat: no-repeat; /* Do not repeat the image */
   	text-align: center;
+  	background-position: center, center;
 }
 
 .container{
 	display: inline-block;
-	margin-top: 12%;
+	margin-top: 20%;
 }
 
 p{
