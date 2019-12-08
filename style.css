@@ -1,0 +1,25 @@
+body{
+	background-image: url("background.jpg");
+	height: 500px;
+	background-size: cover;
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	text-align: center;
+}
+
+.container{
+	display: inline-block;
+	margin-top: 12%;
+}
+
+p{
+	color: white;
+	font: "Lucida Console", Monaco, monospace
+}
+
+th{
+	padding: 0 0 0 25px;
+}
+
+th:hover{
+	opacity: 0.6;
+}
