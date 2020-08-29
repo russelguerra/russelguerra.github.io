@@ -13,6 +13,15 @@ p{
 	font: "Lucida Console", Monaco, monospace
 }
 
+.title{
+	font-size: small;
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+}
+
 th{
 }
 
