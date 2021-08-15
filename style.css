@@ -7,15 +7,18 @@ body{
 p{
 	color: white;
 	font: "Lucida Console", Monaco, monospace
+  	text-align: center;
 }
 
 .title{
 	font-size: x-small;
 	font-style: italic;
+  	text-align: center;
 }
 
 a{
 	text-decoration: none;
+  	text-align: center;
 }
 
 th{
