@@ -1,8 +1,12 @@
 body{
 	background-image: linear-gradient(to right, #0C2C3B , #011822);
-	margin: auto;
+  	text-align: center;
 }
 
+.container{
+	margin-top: 20%;
+	display: inline-block;
+}
 
 p{
 	color: white;
@@ -12,7 +16,13 @@ p{
 .title{
 	font-size: x-small;
 	font-style: italic;
-	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+th{
 }
 
 th:hover{
