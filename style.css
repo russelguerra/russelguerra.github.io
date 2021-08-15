@@ -16,3 +16,8 @@ p{
 th:hover{
 	opacity: 0.6;
 }
+
+.center{
+	margin: auto;
+  	width: 50%;
+}
