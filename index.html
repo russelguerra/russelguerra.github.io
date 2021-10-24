@@ -2,50 +2,21 @@
 <html>
   <head>
     <title>Russel J. Guerra</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular-route.min.js"></script>
+
+    <!-- Personalized Scripts -->
+    <script type="text/javascript" src="pages/index/index-app.js"></script>
+    <script type="text/javascript" src="pages/index/indexController.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
-  <body>
-    <div class="container">
-      <p>
-        <span class="title">nakayakap at nahihiwagahan</span>
-
-        <br />
-
-        ᜈᜃᜌᜃᜉ᜔ ᜀᜆ᜔ ᜈᜑᜒᜑᜒᜏᜄᜑᜈ᜔
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th class="socials">
-              <a href="http://fb.com/russelguerra">
-                <img src="facebook.png" width="100px" height="100px" />
-
-                <br />
-
-                <p>/russelguerra</p>
-              </a>
-            </th>
-            <th class="socials">
-              <a href="http://twitter.com/rsslgrr">
-                <img src="twitter.png" width="100px" height="100px" />
-
-                <br />
-
-                <p>@rsslgrr</p>
-              </a>
-            </th>
-            <th>
-              <a href="http://instagram.com/russelguerra">
-                <img src="instagram.png" width="100px" height="100px" />
-
-                <br />
-
-                <p>@russelguerra</p>
-              </a>
-            </th>
-          </tr>
-        </thead>
-      </table>
-    </div>
+  <body ng-app="indexApp" style="color: white; background-image: linear-gradient(to right, #0C2C3B , #011822);">
+    
+    <div class="container" ng-view></div>
+    
   </body>
 </html>
