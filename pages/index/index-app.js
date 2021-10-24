@@ -5,7 +5,7 @@
 
     indexApp.config(function ($routeProvider) {
             $routeProvider
-                .when('/index',
+                .when('/',
                     {
                         templateUrl: 'pages/index/index.html',
                         controller: 'indexController'
